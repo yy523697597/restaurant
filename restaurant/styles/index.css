@@ -1,0 +1,400 @@
+body
+{
+    font-family: 'Arial', 'Roboto', sans-serif;
+    font-size: 16px;
+
+    background-color: #fff;
+}
+
+/*===banner区域样式设置开始===*/
+
+/*为banner设置背景图片，将导航链接下移50px*/
+.banner
+{
+    min-height: 790px;
+    padding-top: 50px;
+
+    background-image: url('../img/bnr.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-head
+{
+    padding: 10px 30px;
+
+    background-color: #fff;
+}
+
+.banner-head a,
+.banner-head a:hover
+{
+    text-decoration: none;
+
+    color: #000;
+}
+
+.banner-head .top-menu a:hover,
+.banner-head .top-menu li:hover
+{
+    color: #03b80c;
+}
+
+.banner-head .navbar
+{
+    font-size: 2rem;
+
+    border: none;
+    background-color: #fff;
+}
+.banner .logo h1
+{
+    display: block;
+
+    margin-left: 3rem;
+}
+.banner .logo h1 > a
+{
+    color: #03b80c;
+}
+.banner .logo h1 .and
+{
+    color: #000;
+}
+.banner .logo h1 .foods
+{
+    color: #b6a458;
+}
+/*设置banner的导航栏样式*/
+.banner .navbar-default
+{
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus
+{
+    color: #4cae4c;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus
+{
+    color: #4cae4c;
+    background-color: transparent;
+}
+
+.navbar .btn,
+.navbar input
+{
+    border-radius: 0;
+}
+.navbar .btn
+{
+    width: 80px;
+
+    background-color: #4cae4c;
+}
+.navbar .navbar-form
+{
+    margin-right: 9%;
+}
+.banner-head .logo,
+.banner-head .header-right
+{
+    display: inline-block;
+}
+
+.banner-head .header-right
+{
+    font-size: 18px;
+
+    margin-left: 40%;
+}
+
+/*设置bannercontent中文字样式*/
+.banner .bannercontent
+{
+    margin-top: 60px;
+}
+.banner .bannercontent h2.thin
+{
+    font-weight: 200;
+
+    color: #fff;
+}
+
+.banner .bannercontent hr
+{
+    width: 100px;
+    height: 2px;
+    margin-left: 0;
+
+    text-align: left;
+
+    background-color: #e6d59a;
+}
+
+.banner .bannercontent h1
+{
+    font-weight: 700;
+    line-height: 2rem;
+
+    color: #fff;
+}
+
+.banner .bannercontent p
+{
+    font-size: 16px;
+    line-height: 2rem;
+
+    margin: 30px 0;
+
+    color: #adadad;
+}
+
+/*设置banner中两个按钮的样式*/
+#clickbutton:hover,
+#morebutton:hover
+{
+    color: #fff;
+    background: transparent;
+}
+
+#clickbutton
+{
+    width: 120px;
+    margin-right: 2rem;
+
+    background-color: #e6d59a;
+}
+
+#morebutton
+{
+    width: 120px;
+
+    background-color: #9ba414;
+}
+
+/*---banner区域样式设置结束---*/
+/*===welcome开始===*/
+.welcome
+{
+    min-height: 650px;
+    padding: 2rem;
+
+    background-color: #fff;
+}
+
+.welcome h1,
+.service h1,
+.specails h1
+{
+    font-size: 50px;
+
+    margin-bottom: 40px;
+
+    color: #b6a458;
+}
+
+.welcome p
+{
+    font-size: 16px;
+    line-height: 2rem;
+
+    margin: 20px 0;
+
+    color: #9d9d9d;
+}
+
+/*---welcome结束---*/
+/*===service开始===*/
+.service
+{
+    min-height: 450px;
+    padding: 2rem;
+
+    background-color: #f8fcff;
+}
+
+.service .fa-smile-o,
+.service .fa-jpy,
+.service .fa-thumbs-o-up
+{
+    font-size: 45px;
+
+    padding-top: 45px;
+}
+
+.service h2
+{
+    color: #09b866;
+}
+
+/*---service结束---*/
+/*===specials开始===*/
+.specails
+{
+    min-height: 600px;
+    padding-top: 30px;
+}
+
+.specails .fa-angle-left,
+.specails .fa-angle-right
+{
+    font-size: 100px;
+
+    margin-top: 70%;
+
+    color: #000;
+}
+
+.carousel-control,
+.carousel-control:hover,
+.carousel-control:active,
+.carousel-control:focus
+{
+    opacity: .2;
+}
+
+#myCarousel
+{
+    margin-bottom: 80px;
+}
+
+.specails .thumbnail a
+{
+    text-decoration: none;
+
+    color: #4cae4c;
+}
+
+/*---specials结束---*/
+
+/*===新闻开始===*/
+.newsAndStaff
+{
+    min-height: 700px;
+    padding-top: 50px;
+}
+
+.newsAndStaff h2
+{
+    margin-bottom: 40px;
+
+    color: #b6a458;
+}
+
+.newsAndStaff h3,
+.newsAndStaff h4,
+.newsAndStaff a
+{
+    color: #4cae4c;
+}
+
+.newsAndStaff p,
+.newsAndStaff h5
+{
+    color: #a0a0a0;
+}
+
+.newsAndStaff h3,
+.ceo h4,
+.ceo h5,
+.manager h4,
+.manager h5
+{
+    font-weight: bold;
+}
+
+.ceo p,
+.manager p
+{
+    color: #656565;
+}
+
+.ceo
+{
+    margin-bottom: 50px;
+}
+
+.newsAndStaff a
+{
+    text-decoration: none;
+}
+
+.newsAndStaff h3:hover
+{
+    color: #b6a458;
+}
+
+/*---新闻结束---*/
+
+/*===footer开始===*/
+.footer
+{
+    min-height: 300px;
+    padding-top: 50px;
+
+    background-color: #343434;
+}
+
+.footer .container
+{
+    color: #fff;
+}
+
+.footer .container p,
+.footer .container h5
+{
+    color: #adadad;
+}
+
+.footer .input-group button
+{
+    color: #fff;
+    background-color: #343434;
+}
+
+.footer a
+{
+    text-decoration: none;
+
+    color: #fff;
+}
+
+.footer a:hover
+{
+    color: #4cae4c;
+}
+
+.footer i
+{
+    font-size: 2rem;
+}
+
+.footer .social
+{
+    word-spacing: 1.5rem;
+}
+
+.footer h2
+{
+    margin-bottom: 2rem;
+}
+
+/*---footer结束---*/
+/*===copyright开始===*/
+.copyright
+{
+    min-height: 50px;
+    margin-bottom: -10px;
+    padding-top: 10px;
+
+    color: #fff;
+    background-color: #4d4d4d;
+}
+
+/*---copyright结束---*/

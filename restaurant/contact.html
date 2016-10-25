@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/font-awesome.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <title>首页</title>
+</head>
+<body>
+<!--==开始banner==-->
+<div class="banner">
+    <!--==开始导航链接==-->
+    <div class="container">
+        <div class="banner-head">
+            <div class="logo">
+                <h1>
+                    <a href="index.html">
+                        Hot
+                        <span class="and">&</span>
+                        <span class="foods">Foods</span>
+                    </a>
+                </h1>
+            </div>
+            <div class="header-right">
+                <div class="details">
+                    <ul class="list-unstyled list-inline">
+                        <li>
+                            <a href="mailto:523697597@qq.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true">&nbsp 523697597@qq.com</i>
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fa fa-phone" aria-hidden="true">&nbsp 185-02810881</i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="clearfix"></div>
+
+            <div class="top-menu">
+                <div class="content white">
+                    <nav class="navbar navbar-default">
+                        <div class="navbar-header">
+                            　<!-- .navbar-toggle样式用于toggle收缩的内容，即nav-collapse collapse样式所在元素 -->
+                            <button class="navbar-toggle" type="button" data-toggle="collapse"
+                                    data-target=".navbar-responsive-collapse">
+                                <span class="sr-only">切换导航栏</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="active">
+                                    <a href="index.html">首页</a>
+                                </li>
+                                <li>
+                                    <a href="about.html">关于</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                        菜单 <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li>
+                                            <a href="recipes.html">菜单1</a>
+                                        </li>
+                                        <li>
+                                            <a href="recipes.html">菜单2</a>
+                                        </li>
+                                        <li>
+                                            <a href="recipes.html">菜单3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="gallery.html">图库</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">联系</a>
+                                </li>
+                            </ul>
+                            <form action="#" class="navbar-form navbar-right" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="请输入关键词"/>
+                                </div>
+                                <button type="submit" class="btn btn-info">搜索</button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  结束导航链接  -->
+<!--==开始contact==-->
+<div class="contact">
+    <div class="container">
+        <h1 class="text-center">联系</h1>
+        <form action="index.html" class="form-horizontal" role="form" id="form1" method="post">
+            <div class="row">
+                <div class="form-group ">
+                    <label for="phone1" class="col-xs-2   control-label">手机号</label>
+                    <div class="col-xs-1 col-xs-offset-1">
+                        <input type="text" class="form-control" id="phone1" placeholder="185" maxlength="3" required pattern="\d+" name="phone">
+                    </div>
+                    <div class="col-xs-2">
+                        <input type="text" class="form-control" id="phone2" placeholder="0281" maxlength="4" required pattern="\d+" name="phone">
+                    </div>
+                    <div class="col-xs-2">
+                        <input type="text" class="form-control" id="phone3" placeholder="0881" maxlength="4" required pattern="\d+" name="phone">
+                    </div>
+                    <div class="col-xs-1 xinhao">*</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group has-feedback">
+                    <label for="inputemail" class="col-xs-2   control-label">电子邮件</label>
+                    <div class="col-xs-5 col-xs-offset-1">
+                        <input type="email" class="form-control" id="inputemail" placeholder="请输入你的E-Mail地址" required name="email">
+                    </div>
+                    <div class="col-xs-1 xinhao">*</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group has-feedback">
+                    <label for="inputarea" class="col-xs-2   control-label">留言</label>
+                    <div class="col-xs-5 col-xs-offset-1">
+                        <textarea class="form-control" id="inputarea" placeholder="请输入你的留言" rows="8" required name="textarea"></textarea>
+                    </div>
+                    <div class="col-xs-1 xinhao">*</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-2 col-xs-offset-3">
+                    <button type="submit" id="submitbtn" class="btn btn-lg btn-success">提交</button>
+                </div>
+                <div class="col-xs-2">
+                    <button type="reset" id="resetbtn" class="btn btn-lg btn-danger">重置</button>
+                </div>
+            </div>
+        </form>
+    <div id="output1">
+        <h1 class="text-center">感谢您的留言</h1>
+    </div>
+    </div>
+</div>
+<!--  结束contact  -->
+<!--==开始footer==-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <h2>最新微博</h2>
+                <h5>Nunc porta justo eu varius mattis.</h5>
+                <p>
+                    <a href="http://weibo.com/">http://www.weibo.com/</a>
+                </p>
+                <h5>Nunc porta justo eu varius mattis.</h5>
+                <p>
+                    <a href="http://weibo.com/">http://www.weibo.com/</a>
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <h2>动态追踪</h2>
+                <p>
+                    Praesent ex lectus, luctus ut enim sed, scelerisque laoreet massa. Fusce rhoncus massa dignissim
+                    suscipit varius. Donec vel congue libero.
+                </p>
+
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="请输入你的E-Mail地址">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default " type="button">Go!</button>
+                    </span>
+                </div>
+
+            </div>
+            <div class="col-md-4 col-sm-12 social">
+                <h2>社交媒体</h2>
+                <a href="http://www.weibo.com/"><i class="fa fa-weibo" aria-hidden="true"></i></a>
+                <a href="http://www.t.qq.com/"><i class="fa fa-tencent-weibo" aria-hidden="true"></i></a>
+                <a href="https://wx.qq.com/"><i class="fa fa-weixin" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://im.qq.com/"><i class="fa fa-qq" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  结束footer  -->
+<!--==开始copyright==-->
+<div class="copyright">
+    <h5 class="text-center">Copyright &copy 2016.Yu Yi All rights reserved.</h5>
+</div>
+<!--  结束copyright  -->
+<script src="scripts/jquery.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/EventUtil.js"></script>
+<script src="scripts/jquery.validate.min.js"></script>
+<script src="scripts/messages_zh.min.js"></script>
+<script src="scripts/jquery.form.min.js"></script>
+<script>
+    <!--当输入框达到maxlength后下一个输入框获取焦点-->
+    $(function () {
+        function tabForward(event) {
+            event = EventUtil.getEvent(event);
+            var target = EventUtil.getTarget(event);
+
+            if (target.value.length == target.maxLength) {
+                var form = target.form;
+
+                for (var i = 0, len = form.elements.length; i < len; i++) {
+                    if (form.elements[i] == target) {
+                        if (form.elements[i + 1]) {
+                            form.elements[i + 1].focus();
+                        }
+                        return;
+                    }
+                }
+
+            }
+        }
+
+        var phone1 = document.getElementById("phone1");
+        var phone2 = document.getElementById("phone2");
+        var phone3 = document.getElementById("phone3");
+
+        EventUtil.addHandler(phone1, "keyup", tabForward);
+        EventUtil.addHandler(phone2, "keyup", tabForward);
+        EventUtil.addHandler(phone3, "keyup", tabForward);
+    });
+//表单验证
+    $(function () {
+        $("#form1").validate({
+            rules:{
+                phone:{
+                    required:true,
+                    number:true
+                },
+                email:{
+                    required:true,
+                    email:true
+                },
+                rextarea:{
+                    required:true
+                }
+            }
+        });
+    });
+//ajax方式表单提交
+    $(function () {
+        $("#form1").ajaxForm(function () {
+            $("#output1").show(600);
+        })
+    })
+</script>
+</body>
+</html>

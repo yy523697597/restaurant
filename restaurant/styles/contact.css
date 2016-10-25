@@ -1,0 +1,200 @@
+body {
+    font-family: 'Arial', 'Roboto', sans-serif;
+    font-size: 16px;
+
+    background-color: #fff;
+}
+
+/*===banner区域样式设置开始===*/
+
+/*为banner设置背景图片，将导航链接下移50px*/
+.banner {
+    min-height: 300px;
+    padding-top: 50px;
+
+    background-image: url('../img/bnr.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-head {
+    padding: 10px 30px;
+
+    background-color: #fff;
+}
+
+.banner-head a,
+.banner-head a:hover {
+    text-decoration: none;
+
+    color: #000;
+}
+
+.banner-head .top-menu a:hover,
+.banner-head .top-menu li:hover {
+    color: #03b80c;
+}
+
+.banner-head .navbar {
+    font-size: 2rem;
+
+    border: none;
+    background-color: #fff;
+}
+
+.banner .logo h1 {
+    display: block;
+
+    margin-left: 3rem;
+}
+
+.banner .logo h1 > a {
+    color: #03b80c;
+}
+
+.banner .logo h1 .and {
+    color: #000;
+}
+
+.banner .logo h1 .foods {
+    color: #b6a458;
+}
+
+/*设置banner的导航栏样式*/
+.banner .navbar-default {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #4cae4c;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #4cae4c;
+    background-color: transparent;
+}
+
+.navbar .btn,
+.navbar input {
+    border-radius: 0;
+}
+
+.navbar .btn {
+    width: 80px;
+
+    background-color: #4cae4c;
+}
+
+.navbar .navbar-form {
+    margin-right: 9%;
+}
+
+.banner-head .logo,
+.banner-head .header-right {
+    display: inline-block;
+}
+
+.banner-head .header-right {
+    font-size: 18px;
+
+    margin-left: 40%;
+}
+
+/*banner样式结束*/
+/*===footer开始===*/
+.footer {
+    min-height: 300px;
+    padding-top: 50px;
+
+    background-color: #343434;
+}
+
+.footer .container {
+    color: #fff;
+}
+
+.footer .container p,
+.footer .container h5 {
+    color: #adadad;
+}
+
+.footer .input-group button {
+    color: #fff;
+    background-color: #343434;
+}
+
+.footer a {
+    text-decoration: none;
+
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #4cae4c;
+}
+
+.footer i {
+    font-size: 2rem;
+}
+
+.footer .social {
+    word-spacing: 1.5rem;
+}
+
+.footer h2 {
+    margin-bottom: 2rem;
+}
+
+/*---footer结束---*/
+/*===contact开始===*/
+.contact {
+    min-height: 400px;
+    padding: 3rem;
+}
+
+.contact h1 {
+    font-size: 50px;
+
+    margin-bottom: 2rem;
+
+    color: #b6a458;
+}
+
+.contact .row {
+    margin: 1.5rem 0;
+}
+.contact .xinhao{
+    color: #4cae4c;
+    font-size:3rem;;
+}
+.contact label{
+
+    color: #adadad;
+}
+#submitbtn,
+#resetbtn{
+    width:150px;
+    border-radius: 0;
+}
+.contact #output1 h1{
+    display: none;
+    margin-top: 5rem;
+    font-size: 4rem;
+    color: #4cae4c;
+}
+/*   contact结束   */
+/*===copyright开始===*/
+.copyright {
+    min-height: 50px;
+    margin-bottom: -10px;
+    padding-top: 10px;
+
+    color: #fff;
+    background-color: #4d4d4d;
+}
+
+/*---copyright结束---*/
